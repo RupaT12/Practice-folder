@@ -1,0 +1,9 @@
+<div [class.open]="isOpen" class="sidebar">
+    <ul>
+      <li><a routerLink="/dashboard" (click)="toggleSidebar()">Dashboard</a></li>
+      <li><a routerLink="/contact" (click)="toggleSidebar()">Contact</a></li>
+      <li><a routerLink="/reports" (click)="toggleSidebar()">Reports</a></li>
+      <li><a routerLink="/signout" (click)="toggleSidebar()">Signout</a></li>
+    </ul>
+  </div>
+
