@@ -1,0 +1,14 @@
+<div>
+  <p>Original Date: {{ today }}</p>
+  <p>Formatted Date: {{ today | date:'fullDate' }}</p>
+  <p>Original Text: {{ text }}</p>
+  <p>Uppercase Text: {{ text | uppercase }}</p>
+
+
+  <!-- app.component.html -->
+<p>Original Date: {{ today1 }}</p>
+<p>Formatted Date (default): {{ today | customDateFormat:'dd/MM/yyyy' }}</p>
+<p>Formatted Date (full): {{ today | customDateFormat:'PPPP' }}</p>
+
+
+</div>
